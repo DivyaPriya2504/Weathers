@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <input type="text" id="city" placeholder="Enter city" />
+        <button id="searchButton">Search</button>
+
+        <div class="weather-info">
+            <h2 id="cityName">City Name</h2>
+            <p id="temperature">Temperature: -- °C</p>
+            <p id="weatherCondition">Weather: --</p>
+            <p id="humidity">Humidity: --%</p>
+            <p id="windSpeed">Wind Speed: -- m/s</p>
+        </div>
+
+        <div class="forecast">
+            <h3>5-Day Forecast</h3>
+            <div id="forecastContainer">
+                <!-- Forecast details will be displayed here -->
+            </div>
+        </div>
+    </div>
+    <button id="themeToggle">Switch to Dark Mode</button>
+    <button id="unitToggle">Switch to Fahrenheit</button>
+    <script src="script.js"></script>
+</body>
+</html>
